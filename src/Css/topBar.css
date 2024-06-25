@@ -1,0 +1,89 @@
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D092F;
+    border-image: linear-gradient(#D4BF79, #B0912A) 90;
+    border-width: 0px 0px 4px 0px;
+    border-style: solid;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    padding: 10px 0px;
+
+   
+}
+.logo{
+    font-size: 40px;
+    font-family: Fondamento;
+    font-weight: 400;
+    letter-spacing: 0%;
+    padding: 15px 0px 15px;
+    background: -webkit-linear-gradient(#D4BF79, #B0912A);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 40px;
+
+}
+.hamburger{
+    display: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Fondamento;
+    font-weight: 400;
+    letter-spacing: 0%;
+    background: -webkit-linear-gradient(#D4BF79, #B0912A);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 40px;
+}
+.hamburger{
+    background-color: transparent;
+    border: 0px;
+    margin-right: 25px;
+}
+
+.nav-mobile{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_active{
+    display: flex;
+}
+
+.nav-btn{
+    padding: 20px;  
+}
+.nav-btn:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(#eddca3, #D4BF79);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+    nav{
+        display: none;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        max-height: calc(100vh - 109px);
+    }
+    .hamburger{
+        display: block;
+    }
+    header{
+        flex-direction: column;
+    }
+    .nav-btn{
+        flex: 100%;
+        margin-left: 40px;
+        font-size: 7vw;
+    }
+    .logo{
+        font-size: 7.5vw;
+    }
+}

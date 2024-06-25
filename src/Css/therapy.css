@@ -1,0 +1,9 @@
+.therapy{
+ padding: 30px 0px;
+ display: flex;
+ flex-direction: column;
+ background-image: url('../Img/pattern2.svg');
+ background-position: center;
+ background-size:contain;
+ background-repeat: no-repeat;
+}

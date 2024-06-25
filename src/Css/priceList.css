@@ -1,0 +1,35 @@
+.price-list{
+ padding: 30px 0px;
+ display: flex;
+ flex-direction: column;
+ background-image: url('../Img/pattern2.svg');
+ background-position: center;
+ background-size:contain;
+ background-repeat: no-repeat;
+}
+.desc{
+    display: flex;
+}
+.libra{
+    padding: 0px 30px 0px 0px;
+    width: 35%;
+}
+table{
+    background-color: #3b0f3e;
+    border-radius: 20px;
+    padding: 20px;
+}
+td{
+    padding: 10px 20px;
+    border-bottom: 1px solid #FFF;
+
+}
+tr:last-child td{
+    border-bottom: 0px;
+}
+
+@media screen and (max-width: 840px){
+    .libra{
+        padding: 0px;
+    }
+}

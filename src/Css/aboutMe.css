@@ -1,0 +1,8 @@
+.about-me{
+ padding: 30px 0px;
+ display: flex;
+ flex-direction: column;
+ background-image: url('../Img/pattern1.svg');
+ background-position: center;
+ background-size: cover;
+}
